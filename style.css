@@ -1,0 +1,96 @@
+/*some attributes for body and html*/
+body, html {
+    background-image: url("https://cdn.discordapp.com/attachments/778047246150402071/916390995321581658/smoke-png---smog-transparent-background-hd-reddish-3whafnxrjaj.png");
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*attributes of columns*/
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+/*class for putting in center*/
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*alert balloon attributes*/
+.alert-balloon{
+    border: 1px solid orange;
+    background: orange;
+    color: red;
+    border-radius: 0.5rem;
+    padding: 10px;
+    visibility: hidden;
+
+}
+
+/*main box attributes*/
+.box{
+    background: #88888866 ;
+    border: 1px;
+    padding:10px;
+    margin: 10px;
+    border-radius: 1rem;
+
+}
+
+/*left column of main box */
+.left{
+    margin-left: 10px;
+}
+
+/*right column of main box*/
+.right{
+
+}
+
+.name-input{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/*for flexing displays*/
+.flex {
+    display: flex;
+}
+
+
+/*attributes of buttons and parts that need to have hidden visibility*/
+#submit {
+    background-color: lightgray;
+    color: black;
+}
+
+#save {
+    background-color: lightgray;
+    color: black;
+}
+
+#clear {
+    background-color: lightgray;
+    color: black;
+    width: 100%;
+}
+
+#save-answer {
+    visibility: hidden;
+}
+
+
+div:not(:last-child) {
+    margin-bottom: 10px;
+}
